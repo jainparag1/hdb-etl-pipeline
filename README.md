@@ -21,7 +21,6 @@ This project implements an end-to-end ETL pipeline for processing HDB resale fla
 
 RAW → VALIDATED → CLEANED → TRANSFORMED → HASHED → FAILED
 
----
 
 ### Logical Design
 
@@ -30,11 +29,13 @@ RAW → VALIDATED → CLEANED → TRANSFORMED → HASHED → FAILED
 </p>
 
 
+
 ### High Level Architecture
 
 <p align="center">
   <img src="solution_designs/hdb_pipeline_hl.png" alt="High Level Design" width="900"/>
 </p>
+
 
 
 ## ⚙️ Tech Stack
