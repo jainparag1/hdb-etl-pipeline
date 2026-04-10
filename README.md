@@ -28,7 +28,7 @@ RAW → VALIDATED → CLEANED → TRANSFORMED → HASHED → FAILED
 </p>
 
 <p align="center">
-  <img src="solution_designs/hdb_pipeline_hl.png" alt="Solution Design" width="900"/>
+  <img src="solution_designs/hdb_pipeline_hl.png" alt="High Level Design" width="900"/>
 </p>
 
 ## ⚙️ Tech Stack
