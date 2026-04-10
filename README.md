@@ -23,13 +23,21 @@ RAW → VALIDATED → CLEANED → TRANSFORMED → HASHED → FAILED
 
 ---
 
+### Logical Design
+
+---
 <p align="center">
   <img src="solution_designs/solution_design.png" alt="Solution Design" width="900"/>
 </p>
+---
 
+### High Level Architecture
+
+---
 <p align="center">
   <img src="solution_designs/hdb_pipeline_hl.png" alt="High Level Design" width="900"/>
 </p>
+---
 
 ## ⚙️ Tech Stack
 
