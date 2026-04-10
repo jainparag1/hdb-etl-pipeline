@@ -20,7 +20,7 @@ This project implements an end-to-end ETL pipeline for processing HDB resale fla
 ## 🏗️ Architecture (Logical Flow)
 
 <p align="center">
-  <img src="screenshots/solution_design.png" alt="Solution Design" width="600"/>
+  <img src="solution_designs/solution_design.png" alt="Solution Design" width="900"/>
 </p>
 
 RAW → VALIDATED → CLEANED → TRANSFORMED → HASHED → FAILED
