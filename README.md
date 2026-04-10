@@ -32,6 +32,18 @@ RAW → VALIDATED → CLEANED → TRANSFORMED → HASHED → FAILED
 
 ### High Level Architecture
 
+```
+data.gov.sg (Public API)
+        ↓
+AWS Lambda (or AWS Batch)
+        ↓
+Amazon S3 (Raw Layer)
+        ↓
+AWS Glue (ETL Jobs)
+        ↓
+Amazon S3 (Processed Layers)
+```
+
 <p align="center">
   <img src="solution_designs/hdb_pipeline_hl.png" alt="High Level Design" width="900"/>
 </p>
