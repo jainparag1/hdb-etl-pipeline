@@ -1,0 +1,69 @@
+{
+  "expectations": [
+    {
+      "id": "bae6f53b-731b-46c7-9e46-9b85c895c9da",
+      "kwargs": {
+        "column": "month",
+        "regex": "\\d{4}-\\d{2}"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_match_regex"
+    },
+    {
+      "id": "9fe0463c-285f-4c47-a062-c7da9871d139",
+      "kwargs": {
+        "column": "town"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "adb2901e-67e7-4ba4-ab51-0baba2f13ab2",
+      "kwargs": {
+        "column": "flat_type",
+        "value_set": [
+          "1 ROOM",
+          "3 ROOM",
+          "4 ROOM",
+          "5 ROOM",
+          "2 ROOM",
+          "EXECUTIVE",
+          "MULTI GENERATION",
+          "MULTI-GENERATION"
+        ]
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_in_set"
+    },
+    {
+      "id": "fca7764e-d59b-4be8-985b-cfd843bbec1d",
+      "kwargs": {
+        "column": "storey_range",
+        "regex": "\\d+"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_match_regex"
+    },
+    {
+      "id": "d53c1a03-4c2d-4e99-b243-67f21aa7dbb4",
+      "kwargs": {
+        "column": "resale_price",
+        "max_value": 910000.0,
+        "min_value": 40000.0
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_between"
+    }
+  ],
+  "id": "66c7e9fe-4e28-4e63-b4c0-fae974e619d4",
+  "meta": {
+    "great_expectations_version": "1.15.2"
+  },
+  "name": "hdb_suite",
+  "notes": null
+}

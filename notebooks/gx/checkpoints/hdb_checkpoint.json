@@ -1,0 +1,12 @@
+{
+  "actions": [],
+  "id": "e6abf44a-c26a-4807-9940-f7812def8972",
+  "name": "hdb_checkpoint",
+  "result_format": "SUMMARY",
+  "validation_definitions": [
+    {
+      "id": "ee4c4793-1e4e-41ef-85d3-9873dbe51404",
+      "name": "hdb_validation"
+    }
+  ]
+}
