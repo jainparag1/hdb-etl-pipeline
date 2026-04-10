@@ -48,7 +48,7 @@ RAW → VALIDATED → CLEANED → TRANSFORMED → HASHED → FAILED
 
 ## 📊 Data Quality Framework
 
-We use **Great Expectations** to:
+I have used **Great Expectations** to:
 
 * Define declarative validation rules
 * Generate Data Docs (validation reports)
